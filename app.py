@@ -5,9 +5,7 @@
 # the process is repeated until all prisoners are free or he finds the number of the last prisoner in the drawer or has opened 50 drawers. 
 # the probability of being caught is calculated and the probability of being free is calculated
 
-
 import random
-
 # monte carlo simulation of 100 prisoners problem to predict the output of the random process of the prisoners
 def monte_carlo_simulation(prisoners):
     prisoners_free = 0
@@ -51,7 +49,7 @@ def prisoner_simulation_2(prisoners):
 # the probability of being caught is calculated and the probability of being free is calculated
 def prisoner_caught_probability(prisoners):
     prisoners_free, prisoners_caught = prisoner_simulation(prisoners)
-    return prisoners_caught / 100
+    return prisoners_caught / 100 
 
 # main function
 if __name__ == "__main__":
